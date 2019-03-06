@@ -2,11 +2,13 @@
 #include <hidapi.h>
 #include <embravaapi.h>
 
+extern SDeviceInfo aosDeviceInfo[MAX_DEVICES_SUPPORTED];
+
 Blync::Blync(unsigned char index)
     : mDeviceIndex(index)
 {
     SDeviceInfo devInfo;
-    InitBlyncDevices(&mNumDevices, &devInfo);
+    InitBlyncDevices(&mNumDevices, aosDeviceInfo);
 }
 
 Blync::~Blync()
