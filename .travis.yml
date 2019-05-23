@@ -10,6 +10,7 @@ addons:
       - cmake
 os:
   - linux
+    dist: xenial
   - osx
 
 script:
