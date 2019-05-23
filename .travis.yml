@@ -1,5 +1,11 @@
 language: cpp
 
+matrix:
+  include:
+    - os: linux
+      dist: xenial
+    - os: osx
+
 addons:
   apt:
     packages:
@@ -8,10 +14,6 @@ addons:
   homebrew:
     packages:
       - cmake
-os:
-  - linux
-    dist: xenial
-  - osx
 
 script:
   - mkdir build && cd build
