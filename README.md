@@ -1,6 +1,6 @@
 # blync
 
-[![Build Status](https://travis-ci.org/szechyjs/blync.svg?branch=master)](https://travis-ci.org/szechyjs/blync)
+[![Build Status](https://travis-ci.com/szechyjs/blync.svg?branch=master)](https://travis-ci.com/szechyjs/blync)
 
 ## macOS Requirements
 ```sh
