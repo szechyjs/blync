@@ -27,6 +27,7 @@ deploy:
     secure: TVwj8eOZWQHkLnOWQmNoSIjMLrcTxcFHoFNufscNR80DZf7NXUavMQyacmW+Agb7jdIYzOt/Ww0IFn7/aC5lrMWcCnom3WeKYcJ658cebxkS9Xm4GRL+Pwof4UfDWApQiN/RYOSdGmk4gPvMPeh+5+37auzs09Np7jxlB6M9Nh3IrroEhnx1x93HYtcFZbcCS6RNiRREcXAQc7xHl+NSZjK7kT4ujNODdRUMJSHNmFwWEtMOVVCrNByr0H7blZdLnQcxrKBo+LC/mG1XECfHzJ0hMLt5X0MOLTQCFvcJinQwB5FOEBC+6/4aRpPgr3pUawgl3Olod2qRWcDJ3AU+PK2gRa+bdulLzrbx6ix6lw2lQKfy33KEl79g8h5u3WWQTXnhiQlr2XjUEWch5W7ECiBokuyDCFMcfOs9kqdf1wX2nfQTupHqNPESA9B2eYT9gN1oxGayy60Mr7UW8INTk3tAUKoyCfDJqVnF1a534XQhRoufmH+ADhxtyVn/upkGGMTiPE2he4bRasvB8kK+6ryBHRCt73Rkllsp+VlSlHrKKs97NqnYBjpIwPISxte6v5QW+tG4XwqtksSpAdakuv8Ksxe3qFkwkOzuXCk7b7mOgi4wjD12yisCJ9abzza2g81F2FuIqLZCPwU4abE5UXEZBtVcm4+LKB05En/gzQo=
   file_glob: true
   file: build/blync_*
+  skip_cleanup: true
   on:
     repo: szechyjs/blync
     tags: true
