@@ -1,0 +1,18 @@
+language: cpp
+
+addons:
+  apt:
+    packages:
+      - cmake
+      - libusb-1.0-0-dev
+  homebrew:
+    packages:
+      - cmake
+os:
+  - linux
+  - osx
+
+script:
+  - mkdir build && cd build
+  - cmake ..
+  - make
