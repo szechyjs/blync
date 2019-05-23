@@ -1,5 +1,7 @@
 # blync
 
+[![Build Status](https://travis-ci.org/szechyjs/blync.svg?branch=master)](https://travis-ci.org/szechyjs/blync)
+
 ## macOS Requirements
 ```sh
 brew install cmake
