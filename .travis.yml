@@ -1,0 +1,21 @@
+language: cpp
+
+matrix:
+  include:
+    - os: linux
+      dist: xenial
+    - os: osx
+
+addons:
+  apt:
+    packages:
+      - cmake
+      - libusb-1.0-0-dev
+  homebrew:
+    packages:
+      - cmake
+
+script:
+  - mkdir build && cd build
+  - cmake ..
+  - make
